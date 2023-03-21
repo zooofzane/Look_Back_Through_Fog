@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+/* p{
+    position: absolute;
+    left: 30px;
+} */
+
+
+/* #conflict_name{
+
+  top: 10px;
+}
+#country{
+    top: 30px;
+}
+#geom_wkt{
+    top: 50px;
+}
+
+#best{
+    top: 70px;
+}
+#side_a{
+    top: 90px;
+}
+#side_b{
+    top: 110px;
+}
+#deaths_a{
+    top: 130px;
+}
+#deaths_b{
+    top: 150px;
+}
+#deaths_civilians{
+    top: 170px;
+}
+#deaths_unknown{
+    top: 190px;
+}
+#source_article{
+    top: 210px;
+} 
+#date_end{
+    top: 230px;
+}  */
+@font-face {
+    font-family: 'din';
+    src: url('./D-DIN-Bold.ttf');
+}
+
+p {
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    font-family: "din"
+}
+
+/* left top */
+
+.facts {
+    left: 1.5vw;
+}
+
+#country {
+    font-size: 1.8em;
+    top: 2.5vh;
+}
+
+#alltime {
+    font-size: 1.8em;
+    top: 2.5vh;
+    left: 7.5vw;
+}
+
+#alldeath {
+    font-size: 4.5em;
+    top: 6vh;
+}
+
+#deathdeath {
+    font-size: 1.em;
+    top: 14.8vh;
+    left: 1.8vw;
+}
+
+/* left bottom */
+
+#headline {
+    font-size: 3em;
+    bottom: 10vh;
+    left: 1.5vw;
+}
+
+#headline2 {
+    font-size: 1.5em;
+    bottom: 6.5vh;
+    left: 1.5vw;
+}
+
+#credits {
+    font-size: .75em;
+    line-height: 1.4em;
+    color: rgb(140, 140, 140);
+    bottom: 2vh;
+    left: 1.5vw;
+    /* text-align: right; */
+}
+
+/* right */
+
+.details {
+    font-size: 18px;
+    left: 69vw;
+}
+
+#dyad_name {
+    font-size: 1.5em;
+    top: 62vh;
+    width: 480px;
+}
+
+#type {
+    top: 72vh;
+}
+
+#starttime {
+    top: 75vh;
+}
+
+#endtime {
+    top: 75vh;
+    left: 78vw;
+}
+
+#location {
+    top: 78vh;
+}
+/* right right */
+#deaths_soldier {
+    left: 87vw;
+    top: 72vh;
+}
+
+#deaths_civilians {
+    left: 87vw;
+    top: 75vh;
+}
+
+#deaths_unknown {
+    left: 87vw;
+    top: 78vh;
+}
+
+#sourceheadline {
+    top: 83vh;
+    width: 480px;
+}
+
+
+
+/* right bottom */
+
+img {
+    right: -0.5vw;
+    bottom: 6vh;
+    z-index: 1;
+    position: absolute;
+}
+
+#star {
+    color: rgb(140, 140, 140);
+    font-size: .75em;
+    bottom: 5.7vh;
+    right: 35.6vw;
+}
+
+#explanation {
+    color: rgb(140, 140, 140);
+    font-size: .75em;
+    line-height: 1.4em;
+    bottom: 2vh;
+    right: 1.5vw;
+}
